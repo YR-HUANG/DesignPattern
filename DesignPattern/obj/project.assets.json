@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Esther's World\\Study\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
+      "projectUniqueName": "D:\\Esther's World\\Practice\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
       "projectName": "DesignPattern",
-      "projectPath": "D:\\Esther's World\\Study\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
+      "projectPath": "D:\\Esther's World\\Practice\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
       "packagesPath": "C:\\Users\\esther.huang93\\.nuget\\packages\\",
-      "outputPath": "D:\\Esther's World\\Study\\DesignPattern\\DesignPattern\\obj\\",
+      "outputPath": "D:\\Esther's World\\Practice\\DesignPattern\\DesignPattern\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\esther.huang93\\AppData\\Roaming\\NuGet\\NuGet.Config"
