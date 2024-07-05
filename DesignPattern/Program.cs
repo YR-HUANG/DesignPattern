@@ -2,6 +2,7 @@
 
 using DesignPattern.Factory.Factory;
 using DesignPattern.Factory.Factory.Models;
+using DesignPattern.Factory.FactoryAndBuider;
 using DesignPattern.Factory.SimpleFactory;
 
 
@@ -18,3 +19,11 @@ Console.WriteLine("NY Pizza: " + orderPizza.GetName());
 var chiacoStylePizzaStore = new ChiacoStylePizzaStore();
 var pizza = chiacoStylePizzaStore.OrderPizza("cheese");
 Console.WriteLine("chiaco Pizza: " + pizza.GetName());
+
+
+//Builder feat. Factory
+var computer = new ComputerProvider().GetComputer("Acer");
+computer.AddRam("16GB");
+computer.AddCpu("i7");
+computer.AddHardDisk("1TB");
+computer.Build();
